@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test
-  description: <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png>
+  description: <video src=https://www.youtube.com/watch?v=-6l7uufU3z4&list=RDFrPfnQn_-cw&index=14&ab_channel=T-Series>
 paths:
   /:
     get:
