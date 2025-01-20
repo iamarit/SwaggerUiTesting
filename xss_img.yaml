@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: Bug Hunting is an Art & I am an Artist!  __ @iamarit
-  description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png>
+  description: <img href="evil.com"><h1>ClickToLogin<h1> src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png>
 paths:
   /:
     get:
