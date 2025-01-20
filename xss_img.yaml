@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: Bug Hunting is an Arit & I am an Artist!
-  description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png >
+  description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png>
 paths:
   /:
     get:
