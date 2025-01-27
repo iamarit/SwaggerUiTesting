@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: Bug Hunting is an Art & I am an Artist!  __ @iamarit
-  description: <video src=https://youtu.be/Qz1tliPVRvo?si=VyW1Wblkvow9aiNY>
+  description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png>
 paths:
   /:
     get:
