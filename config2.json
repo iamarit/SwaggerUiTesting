@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/xss_img.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/xss_img.yaml",
+            "name": "HTMLi payload"
+        }
+    ]
+}
