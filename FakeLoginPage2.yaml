@@ -3,6 +3,7 @@ info:
   version: 1.0.0
   title: Fake Login Page❗️
   description: |
+    <a href="https://evil.com"><h1>ClickMe<h1></a>
     <img src="https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test2.png" />
     <div class="login-form">
       <div class="heading">
