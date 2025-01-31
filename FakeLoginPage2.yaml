@@ -19,7 +19,7 @@ info:
             <input type="password" name="password" size="20" />
           </div>
           <div class="form-group">
-            <button type="submit" onclick="alert(document.domain)" class="btn btn-defaul">Login</button>
+            <button type="submit" class="btn btn-defaul">Login</button>
           </div>
         </form>
       </div>
