@@ -18,9 +18,7 @@ info:
             <label for="password">Password:</label>
             <input type="password" name="password" size="20" />
           </div>
-          <div class="form-group">
-            <button class="btn btn-default" href="https://evil.com">Login</button>
-          </div>
+          <a class="btn btn-primary" href="https://evil.com" role="button">Login</a>
         </form>
       </div>
     </div>
