@@ -19,7 +19,7 @@ info:
             <input type="password" name="password" size="20" />
           </div>
           <div class="form-group">
-            <button type="submit" href="https://evil.com" class="btn btn-defaul">Login</button>
+            <a class="btn btn-default" href="https://evil.com" role="button">Login</a>
           </div>
         </form>
       </div>
