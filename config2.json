@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/xss_img.yaml",
+    "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/FakeLoginPage2.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/xss_img.yaml",
+            "url": "https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/FakeLoginPage2.yaml",
             "name": "HTMLi payload"
         }
     ]
