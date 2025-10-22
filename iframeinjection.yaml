@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: <iframe src="https://evil.com" width="600" height="400"></iframe>
+  version: production
