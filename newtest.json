@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "Fake Login Page (Research Sample)",
-    "description": "<div class=\"login-form\"><div class=\"heading\"><h1>SIGN IN</h1></div><div class=\"form-container\"><p><strong>Research note:</strong> This HTML is intentionally inert and contains no scripts or form submission logic.</p><div class=\"form-group\"><label>Username:</label><input type=\"text\" disabled /></div><div class=\"form-group\"><label>Password:</label><input type=\"password\" disabled /></div><div class=\"form-group\"><button disabled>Login</button></div></div></div>"
+    "title": "Fake Login Page❗️",
+    "description": "<img src=\"https://raw.githubusercontent.com/iamarit/SwaggerUiTesting/main/test2.png\" />\n<div class=\"login-form\">\n  <div class=\"heading\">\n    <h1>SIGN IN</h1>\n  </div>\n  <div class=\"form-container\">\n    <form class=\"form-signin\">\n      <div class=\"form-group\">\n        <label for=\"username\">Username:</label>\n        <input type=\"text\" name=\"username\" size=\"20\" />\n      </div>\n      <div class=\"form-group\">\n        <label for=\"password\">Password:</label>\n        <input type=\"password\" name=\"password\" size=\"20\" />\n      </div>\n      <div class=\"form-group\">\n        <button type=\"submit\" class=\"btn btn-defaul\">Login</button>\n      </div>\n      <a href=\"https://evil.com\">Forget Password</a>\n    </form>\n  </div>\n</div>"
   },
   "paths": {
     "/": {
