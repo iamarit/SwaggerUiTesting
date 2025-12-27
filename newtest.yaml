@@ -1,0 +1,44 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: Sample API with HTML Description
+  description: |
+    <div style="border:1px solid #ccc; padding:12px; border-radius:6px;">
+      <h2>Welcome to the Sample API</h2>
+      <p>
+        This is a <strong>demo OpenAPI specification</strong>
+        used to test how Swagger UI renders HTML inside
+        the <code>info.description</code> field.
+      </p>
+      <ul>
+        <li>HTML tags: <em>enabled</em></li>
+        <li>No scripts</li>
+        <li>No forms</li>
+        <li>Safe content only</li>
+      </ul>
+      <p>
+        Learn more at
+        <a href="https://example.com" target="_blank">example.com</a>
+      </p>
+    </div>
+
+host: api.example.com
+basePath: /v1
+schemes:
+  - https
+
+paths:
+  /status:
+    get:
+      summary: API status check
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: Service is running
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                example: ok
